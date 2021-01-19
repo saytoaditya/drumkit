@@ -1,0 +1,39 @@
+
+.keys{
+    background-color: black;
+    display: flex;
+    position: relative;
+  width: 1358px;
+    height:645px;
+    justify-content: center;
+    align-items: center;
+      
+}
+.key
+{
+    background-color: yellow;
+    height: 80px;
+    width: 150px;
+    text-align: center;
+    margin:10px;
+    font-size: 30px;
+      border: .4rem solid #ca5b33;
+      border-radius: .5rem;
+      transition: all .07s;
+      
+    
+}
+.playing
+{
+  transform: scale(1.1);
+  border-color: #eacbcb;
+  box-shadow: 0 0 1rem #ff0000;
+}
+.drum
+{
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  font-size: 40px;
+ color:#ca5b33 ;
+}
